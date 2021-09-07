@@ -3,9 +3,9 @@ package com.xworkz.controlStatements;
 public class AadharCard {
 
 	public static void main(String[] args) {
-		String Nationality = "Indian";
+		String nationality = "Indian";
 		
-		if (Nationality == "Indian") {
+		if (nationality == "Indian") {
 			System.out.println("Can be issued Aadhar Card.");
 		}
 		else {

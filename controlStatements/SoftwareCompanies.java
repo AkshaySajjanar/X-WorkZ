@@ -4,11 +4,11 @@ public class SoftwareCompanies {
 
 	public static void main(String[] args) {
 		
-		String listofCompanies[] = {"Bioclicnica", "Google", "TechMahindra", "TCS", "Infosys", "IBM"};
+		String listofCompanies[] = {"Bioclinica", "Google", "TechMahindra", "TCS", "Infosys", "IBM"};
 		
-		for (int i = 0; i < 6; i++) {
+		for (int i = 0; i < listofCompanies.length; i++) {
 			System.out.println(listofCompanies[i]);
-			
+
 		}
 	}
 

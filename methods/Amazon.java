@@ -18,19 +18,19 @@ public class Amazon {
 		System.out.println("Payment done successfully");
 	}
 
-	public static void addtoCart() {
+	public static void addToCart() {
 		System.out.println("Item added to cart");
 	}
 
-	public static void addtoWishList() {
+	public static void addToWishList() {
 		System.out.println("Item added to wish list");
 	}
 
 	public static void main(String[] args) {
 		System.out.println("Login to Amazon");
 		Amazon.viewProduct();
-		Amazon.addtoCart();
-		Amazon.addtoWishList();
+		Amazon.addToCart();
+		Amazon.addToWishList();
 		Amazon.order();
 		Amazon.payment();
 		System.out.println("Logout from Amazon");

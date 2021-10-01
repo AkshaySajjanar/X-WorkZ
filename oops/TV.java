@@ -8,11 +8,11 @@ public class TV {
 	String OS;
 	String sound;
 
-	public void tcON() {
+	public void tvON() {
 		System.out.println("TV is on");
 	}
 
-	public void tcOFF() {
+	public void tvOFF() {
 		System.out.println("TV is off");
 	}
 

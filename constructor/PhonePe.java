@@ -25,11 +25,10 @@ public class PhonePe {
 		this.aadharNo = aadharNo;
 	}
 
-	public PhonePe(String name, long mobileNo, String place, long aadharNo, String panNo) {
+	public PhonePe(String name, long mobileNo, String place, String panNo) {
 		this.name = name;
 		this.mobileNo = mobileNo;
 		this.place = place;
-		this.aadharNo = aadharNo;
 		this.panNo = panNo;
 	}
 

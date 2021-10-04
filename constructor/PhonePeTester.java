@@ -22,7 +22,7 @@ public class PhonePeTester {
 		phonepe2.displayInfo();
 		System.out.println();
 
-		PhonePe phonepe3 = new PhonePe("Akshay", 9742872820L, "Bagalkot", 589079635607L, "HZNPS8621J");
+		PhonePe phonepe3 = new PhonePe("Akshay", 9742872820L, "Bagalkot", "HZNPS8621J");
 		phonepe3.displayInfo();
 		System.out.println();
 

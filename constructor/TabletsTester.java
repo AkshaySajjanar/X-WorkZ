@@ -14,7 +14,13 @@ public class TabletsTester {
 		tabs.displayInfo();
 
 		System.out.println();
-
+		
+		String tab1 = tabs.brand;
+		tab1.length();
+		int a = tab1.length();
+		System.out.println(a);
+		System.out.println();
+		
 		Tablets tab = new Tablets(20000, "Apple", 128, 8, "IpadOS", 12);
 		tab.displayInfo();
 

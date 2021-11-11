@@ -18,8 +18,8 @@ public class Tester {
 
 		mobileDAO.displayMobileDTO(iphone);
 		System.out.println("--------------------");
-		mobileDAO.displayMobileDTO(mobileArray);
+		mobileDAO.displayMobileDAO(mobileArray);
 		System.out.println("--------------------");
-		mobileDAO.filterMobileDTO(mobileArray, 4);
+		mobileDAO.filterMobileDAO(mobileArray, 3);
 	}
 }

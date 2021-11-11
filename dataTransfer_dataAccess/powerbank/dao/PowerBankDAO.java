@@ -10,6 +10,7 @@ public class PowerBankDAO {
 	}
 
 	public void displayPowerBankDTO(PowerBankDTO dto) {
+		System.out.println("Inside the display method");
 		System.out.println(dto.getBrand());
 		System.out.println(dto.getColor());
 		System.out.println(dto.getPrice());
@@ -21,6 +22,14 @@ public class PowerBankDAO {
 		PowerBankDTO powerBankDTO = new PowerBankDTO(brand, price, mAh, color);
 		return powerBankDTO;
 	}
+	
+	public PowerBankDTO updatePowerBank(PowerBankDTO obj, int newPrice) {
+		System.out.println("Inside update methods");
+		obj.setPrice(newPrice);
+		return obj;
+	}
+
+	
 	
 
 }

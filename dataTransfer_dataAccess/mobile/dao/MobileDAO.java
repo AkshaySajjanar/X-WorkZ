@@ -16,7 +16,7 @@ public class MobileDAO {
 
 	}
 
-	public void displayMobileDTO(MobileDTO objArray[]) {
+	public void displayMobileDAO(MobileDTO objArray[]) {
 		for (int i = 0; i < objArray.length; i++) {
 			System.out.println(objArray[i].getBrand());
 			System.out.println(objArray[i].getColor());
@@ -26,7 +26,7 @@ public class MobileDAO {
 
 	}
 
-	public void filterMobileDTO(MobileDTO objArray[], int limit) {
+	public void filterMobileDAO(MobileDTO objArray[], int limit) {
 		for (int i = 0; i < objArray.length; i++) {
 			if (i == limit) {
 				System.out.println(objArray[i].getBrand());

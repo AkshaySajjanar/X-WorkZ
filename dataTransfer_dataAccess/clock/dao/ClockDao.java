@@ -1,7 +1,6 @@
 package com.xworkz.dataTransfer_dataAccess.clock.dao;
 
 import com.xworkz.dataTransfer_dataAccess.clock.dto.ClockDto;
-import com.xworkz.dataTransfer_dataAccess.inverter.dto.InverterDto;
 
 public class ClockDao {
 

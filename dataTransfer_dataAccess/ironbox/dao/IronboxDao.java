@@ -18,10 +18,13 @@ public class IronboxDao {
 
 	public void displayInfo() {
 		for (int i = 0; i < ironbox.length; i++) {
-			System.out.println(ironbox[i].getBrand());
-			System.out.println(ironbox[i].getSerialNumber());
-			System.out.println(ironbox[i].getWatt());
-			System.out.println("---------------");
+			if (ironbox[i] != null) {
+				System.out.println(ironbox[i].getBrand());
+				System.out.println(ironbox[i].getSerialNumber());
+				System.out.println(ironbox[i].getWatt());
+				System.out.println("---------------");
+
+			}
 		}
 	}
 

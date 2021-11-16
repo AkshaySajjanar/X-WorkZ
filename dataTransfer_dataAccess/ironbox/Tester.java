@@ -22,7 +22,7 @@ public class Tester {
 		ironboxDao.updateWattByBrandName("Philips", 1199);
 		ironboxDao.displayByBrandName("Philips");
 
-		ironboxDao.deleteBySerialNumber(4562);
+		ironboxDao.deleteBySerialNumber(3320);
 		ironboxDao.displayInfo();
 	}
 }

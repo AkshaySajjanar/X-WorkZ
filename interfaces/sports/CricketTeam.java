@@ -1,4 +1,4 @@
-package com.xworkz.interfaces.sports;
+ package com.xworkz.interfaces.sports;
 
 public class CricketTeam {
 

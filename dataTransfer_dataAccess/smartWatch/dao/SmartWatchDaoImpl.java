@@ -2,14 +2,14 @@ package com.xworkz.dataTransfer_dataAccess.smartWatch.dao;
 
 import com.xworkz.dataTransfer_dataAccess.smartWatch.dto.SmartWatchDto;
 
-public class SmartWatchDao {
+public class SmartWatchDaoImpl extends SmartWatchDto implements SmartWatchDao {
+
+	public SmartWatchDaoImpl(int serialNumber, String brand, String color, int price) {
+		super(serialNumber, brand, color, price);
+	}
 
 	SmartWatchDto smartWatch[] = new SmartWatchDto[5];
 	int index = 0;
-
-	public SmartWatchDao() {
-		System.out.println("Samrt Watch Dao created");
-	}
 
 	public void saveDTO(SmartWatchDto dto) {
 		System.out.println("Inside the save method");
@@ -19,11 +19,13 @@ public class SmartWatchDao {
 
 	public void displayInfo() {
 		for (int i = 0; i < smartWatch.length; i++) {
-			System.out.println(smartWatch[i].getBrand());
-			System.out.println(smartWatch[i].getColor());
-			System.out.println(smartWatch[i].getSerialNumber());
-			System.out.println(smartWatch[i].getPrice());
-			System.out.println("------------------------");
+			if (smartWatch[i] != null) {
+				System.out.println(smartWatch[i].getBrand());
+				System.out.println(smartWatch[i].getColor());
+				System.out.println(smartWatch[i].getSerialNumber());
+				System.out.println(smartWatch[i].getPrice());
+				System.out.println("------------------------");
+			}
 		}
 	}
 
@@ -54,7 +56,7 @@ public class SmartWatchDao {
 			}
 		}
 	}
-	
+
 	public void deleteBySerialNumber(int serialNumber) {
 		for (int i = 0; i < smartWatch.length; i++) {
 			if (smartWatch[i].getSerialNumber() == serialNumber) {
